@@ -1,0 +1,182 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/book/book",
+			"style": {
+				"navigationBarTitleText": "预约"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "sub-pages",
+			"pages": [
+				{
+					"path": "pages/introduce/introduce",
+					"style": {
+						"navigationBarTitleText": "博物馆介绍"
+					}
+				},
+				{
+					"path": "pages/exhibition/exhibition",
+					"style": {
+						"navigationBarTitleText": "展览展馆"
+					}
+				},
+				{
+					"path": "pages/exhibition/exhibition-details",
+					"style": {
+						"navigationBarTitleText": "展览展馆详情"
+					}
+				},
+				{
+					"path": "pages/number-relic/number-relic",
+					"style": {
+						"navigationBarTitleText": "数字文物"
+					}
+				},
+				{
+					"path": "pages/number-relic/relic-list",
+					"style": {
+						"navigationBarTitleText": "数字文物"
+					}
+				},
+				{
+					"path": "pages/number-relic/relic-details",
+					"style": {
+						"navigationBarTitleText": "数字文物详情"
+					}
+				},
+				{
+					"path": "pages/book/book-list",
+					"style": {
+						"navigationBarTitleText": "我的预约"
+					}
+				},
+				{
+					"path": "pages/book/book-details",
+					"style": {
+						"navigationBarTitleText": "预约详情"
+					}
+				},
+				{
+					"path": "pages/book/book-notice",
+					"style": {
+						"navigationBarTitleText": "预约须知"
+					}
+				},
+				{
+					"path": "pages/book/book-edit",
+					"style": {
+						"navigationBarTitleText": "填写预约信息"
+					}
+				},
+				{
+					"path": "pages/wenbo/wenbo-list",
+					"style": {
+						"navigationBarTitleText": "咨询"
+					}
+				},
+				{
+					"path": "pages/wenbo/wenbo-details",
+					"style": {
+						"navigationBarTitleText": "咨询详情"
+					}
+				},
+				{
+					"path": "pages/visit/visit-notice",
+					"style": {
+						"navigationBarTitleText": "参观须知"
+					}
+				},
+				{
+					"path": "pages/traffic/traffic",
+					"style": {
+						"navigationBarTitleText": "交通路线"
+					}
+				},
+				{
+					"path": "pages/interact/interact",
+					"style": {
+						"navigationBarTitleText": "互动留言"
+					}
+				},
+				{
+					"path": "pages/interact/interact-edit",
+					"style": {
+						"navigationBarTitleText": "发布留言"
+					}
+				},
+				{
+					"path": "pages/contacts/contacts",
+					"style": {
+						"navigationBarTitleText": "常用联系人"
+					}
+				},
+				{
+					"path": "pages/contacts/contacts-add",
+					"style": {
+						"navigationBarTitleText": "新增联系人"
+					}
+				},
+				{
+					"path": "pages/collect/collect",
+					"style": {
+						"navigationBarTitleText": "我的收藏"
+					}
+				},
+				{
+					"path": "pages/about/user",
+					"style": {
+						"navigationBarTitleText": "联系我们"
+					}
+				},
+				{
+					"path": "pages/about/notice",
+					"style": {
+						"navigationBarTitleText": "公告"
+					}
+				},
+				{
+					"path": "pages/webview/webview",
+					"style": {
+						"navigationBarTitleText": "网页"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black", // 导航栏标题颜色及状态栏前景颜色
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom" // 不显示原生导航栏
+	},
+	"tabBar": {
+		"custom": true,
+		"color": "#666666",
+		"selectedColor": "#FFFFFF",
+		"borderStyle": "black",
+		"backgroundColor": "#000000",
+		"list": [
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的"
+			}
+		]
+	}
+}

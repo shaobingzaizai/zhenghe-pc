@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "iconfont";
+  /* Project id 4650736 */
+  src: url('//at.alicdn.com/t/c/font_4650736_od6jl1fvykf.woff2?t=1727517233904') format('woff2'),
+    url('//at.alicdn.com/t/c/font_4650736_od6jl1fvykf.woff?t=1727517233904') format('woff'),
+    url('//at.alicdn.com/t/c/font_4650736_od6jl1fvykf.ttf?t=1727517233904') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-down:before {
+  content: "\e839";
+}
+
+.icon-up:before {
+  content: "\e845";
+}
+
+.icon-close:before {
+  content: "\e7fc";
+}
+
+.icon-Add:before {
+  content: "\e606";
+}
+
+.icon-sub:before {
+  content: "\e619";
+}
+
+.icon-delete:before {
+  content: "\e6c2";
+}
+
+.icon-edit:before {
+  content: "\e600";
+}
+
+.icon-right1:before {
+  content: "\e682";
+}
+
+.icon-loading:before {
+  content: "\e627";
+}
+
+.icon-wode:before {
+  content: "\e603";
+}
+
+.icon-left1:before {
+  content: "\e681";
+}
+
+.icon-home:before {
+  content: "\e609";
+}
